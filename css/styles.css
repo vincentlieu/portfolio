@@ -1,8 +1,13 @@
 body {
     background-color: #212121;
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
-    margin: auto;
+    margin-right: auto;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 /* Navigation links */
 #nav-container {
     display: flex;
@@ -10,9 +15,13 @@ body {
     align-items: center;
     padding: 0px 25px 0px 25px;
     border-bottom: 1px solid #333;
+    position: fixed;
+    width: 98%;
+    top: 0;
+    background-color: #212121;
 }
 
-.logo {
+.nav-logo-text {
     max-width: 150px;
     width: 100%;
 }
@@ -36,12 +45,58 @@ body {
 .landing-intro {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: flex-start;
-    background-color: burlywood;
+    align-items: center;
+    background-color: inherit;
     height: 100vh;
+    color:white;
 }
 
-h1 {
-    margin-top: 15vh;
+.logo {
+    max-width: 250px;
+    width: 100%;
+    margin-top: 10vh;
+    fill: white;
+}
+
+.intro-text {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.chevron-dd {
+    fill: white;
+    max-height: 100px;
+    max-width: 100px;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    bottom: 2vh;
+}
+
+.about-me {
+    background-color: red;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-me .img {
+    background-color: blue;
+    max-height: 700px;
+    max-width: 500px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.about-me .text {
+    background-color: yellow;
+    height: 500px;
+    width: 1000px;
+}
+
+.contact-details {
+    background-color: green;
+    height: 100vh;
 }
