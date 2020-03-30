@@ -248,17 +248,33 @@ body::-webkit-scrollbar {
     transition: 1s;
 }
 
-.list-items li {
+.about-me-text ul li {
     list-style: none;
+}
+
+.list-items li {
     display: inline-block;
-    padding-right: 10px;
-    list-style-position: inside;
+    margin: 5px 5px 5px 5px;
 }
 
 .list-items li:hover {
     color:  #ff001e;
     -webkit-user-select: none;
     transition: 1s;
+}
+
+.breaker {
+    width: 80%;
+    background-color: red;
+    height: 2px;
+    font-size: 100px;
+    justify-self: center;
+    margin: 10px auto 10px auto;
+}
+
+.secondment-styling {
+    font-style: italic;
+    font-size: 15px;
 }
 
 @media only screen and (max-width: 375px) {
