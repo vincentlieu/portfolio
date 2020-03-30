@@ -1,0 +1,81 @@
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Vincent Lieu's Portfolio" />
+    <meta name="author" content="Vincent Lieu" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo.png" type="image/png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"
+    />
+    <title>Vincent Lieu × Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav id="nav-container">
+        <a href="index.html"
+          ><img class="nav-logo-text" src="img/logo_text_white.svg"
+        /></a>
+        <ul class="nav-links">
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="#">PROJECTS</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="#" class="active">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="contact-container">
+        <div>
+            <h2>Get in touch.</h2>
+        </div>
+        <div class="contact-form-container">
+        <form id="contact-form" method="post" action="mailto:v.lieu93@gmail.com" role="form">
+
+        <div class="messages"></div>
+    
+        <div class="controls">
+    
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_name">First name *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required" data-error="Firstname is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_lastname">Last name *</label>
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required" data-error="Lastname is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="form_email">Email *</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="form_message">Message *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                </div>
+            </div>
+        </div>
+    </div>
+    </form></div>
+</body>
