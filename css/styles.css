@@ -12,7 +12,7 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-/* Navigation links */
+/* Navigation */
 #nav-container {
     display: flex;
     justify-content: space-between;
@@ -46,6 +46,7 @@ body::-webkit-scrollbar {
     color: #8d99ae;
 }
 
+/* Main - Landing */
 #landing {
     background: url("https://w.wallhaven.cc/full/zm/wallhaven-zm832v.jpg");
     background-size: cover;
@@ -54,7 +55,7 @@ body::-webkit-scrollbar {
 
 #transparent-overlay {
     background-color: rgba(17, 17, 17, 0.603);
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
@@ -75,6 +76,18 @@ body::-webkit-scrollbar {
     width: 100%;
     fill: #ff001e;
 }
+
+.logo-breath {
+    animation-name: logo-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo-animation {
+    0% {fill: #9b0000;}
+    50% {fill: #ff001e;}
+    100% {fill: #9b0000;}
+  }
 
 .intro-text {
     text-align: center;
@@ -106,16 +119,17 @@ body::-webkit-scrollbar {
     animation-iteration-count: infinite;
 }
 
-.bounce {
-    animation-name: bounce-1;
+.chevron-bounce {
+    animation-name: bounce;
     animation-timing-function: linear;
 }
-@keyframes bounce-1 {
+@keyframes bounce {
     0%   { transform: translateY(0); }
     50%  { transform: translateY(-20px); }
     100% { transform: translateY(0); }
 }
 
+/* Main - About Me */
 .about-me {
     background-color: #2b2d42;
     height: 100vh;
@@ -139,6 +153,7 @@ body::-webkit-scrollbar {
     font-size: 1.5rem;
 }
 
+/* Main - Contact */
 .contact-details {
     background-color: inherit;
     height: 100vh;
