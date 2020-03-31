@@ -291,6 +291,26 @@ body::-webkit-scrollbar {
 
 }
 
+.article-container {
+    margin: 80px 15px 10px 15px;
+}
+
+.article-container article {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.article-container * {
+    color: white;
+}
+
+.article-container img {
+    max-width: 1980;
+    max-height: 1200;
+    width: 100%;
+    height: auto;
+}
+
 @media only screen and (max-width: 375px) {
     #about .text {
         font-size: 1em;
