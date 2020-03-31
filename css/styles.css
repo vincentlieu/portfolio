@@ -74,8 +74,8 @@ body::-webkit-scrollbar {
     flex-direction: column;
     align-items: center;
     border: 3px solid white;
-    padding: 30px 30px 30px 30px;
-    margin: 10vh 1vh 2vh 1vh;
+    padding: 0px 10px 50px 10px;
+    margin: 80px 15px 10px 15px;
     max-width: 400px;
     max-height: 500px;
 }
@@ -135,18 +135,13 @@ body::-webkit-scrollbar {
     100% { transform: translateY(0); }
 }
 
-/* Main - About Me */
-#main-about {
-    background-color: #2b2d42;
-    min-height: 100vh;
-}
-
+/* About Me page */
 .about-me-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 10%;
+    margin: 80px 15px 10px 15px;
 }
 
 .about-me-profile {  
@@ -157,77 +152,6 @@ body::-webkit-scrollbar {
     border-radius: 50%;
 }
 
-.main-bio {
-    font-size: 1.2em;
-    margin: 10px;
-    max-width: 1000px;
-    height: 100%;
-    width: 100%;
-}
-
-/* Main - Projects */
-#projects {
-    background-color: inherit;
-    height: 100vh;
-}
-
-/* Main - Contact */
-.contact-details {
-    background-color: #2b2d42;
-    height: 100vh;
-}
-
-.contact-details {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-.contact-details a {
-    background-color: #2b2b2b;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-decoration: none;
-    text-align: center;
-    max-height: 100%;
-    max-width: 100%px;
-    height: auto;
-    width: auto;
-    border-radius: 1em;
-    border: 1px solid #333;
-    box-shadow: 5px 5px rgb(22, 22, 22);
-}
-
-.contact-details a:hover {
-    transition: 1s;
-}
-
-.contact-details a:first-child:hover{
-    background-color: royalblue;
-}
-
-.contact-details a:nth-child(2):hover {
-    background-color: rebeccapurple;
-}
-
-.contact-details a:last-child:hover{
-    background-color: crimson;
-}
-
-.contact-details svg {
-    max-height: 500px;
-    max-width: 500px;
-    height: 100%;
-    width: 100%;
-    fill: white;
-}
-
-/* About Me page */
 .about-me-text {
     font-size: 1.2em;
     margin: 10px;
@@ -259,15 +183,6 @@ body::-webkit-scrollbar {
     transition: 1s;
 }
 
-.breaker {
-    width: 80%;
-    background-color: #ff001e;
-    height: 2px;
-    font-size: 100px;
-    justify-self: center;
-    margin: 10px auto 10px auto;
-}
-
 .secondment-styling {
     font-style: italic;
     font-size: 15px;
@@ -275,7 +190,7 @@ body::-webkit-scrollbar {
 
 /* Contact Form */
 .contact-container {
-    margin: 50px 20px 0px 20px;
+    margin: 80px 15px 10px 15px;
 }
 
 .article-container {
@@ -288,12 +203,11 @@ body::-webkit-scrollbar {
 }
 
 .article-container img {
-    max-width: 1980;
-    max-height: 1200;
     width: 100%;
     height: auto;
 }
 
+/* Projects page  */
 .projects-container {
     margin: 80px 15px 10px 15px;
     display: flex;
