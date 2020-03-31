@@ -298,14 +298,14 @@ body::-webkit-scrollbar {
     margin: 80px 15px 10px 15px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .project {
     width: 350px;
     height: 150px;
     background-color: rgb(24, 24, 24);
-    margin-bottom: 20px;
+    margin: 10px;
     display: flex;
     align-items: center;
     text-decoration: none;
