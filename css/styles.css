@@ -308,7 +308,8 @@ body::-webkit-scrollbar {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-
+    text-decoration: none;
+    color: white;
 }
 
 .project * {
