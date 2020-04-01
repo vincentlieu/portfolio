@@ -6,6 +6,7 @@ body {
     background-color: #212121;
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
     margin: 0px;
+    padding: 0px;
     color: white;
     text-decoration: none;
 }
@@ -18,43 +19,102 @@ svg {
     fill: white;
 }
 
-/* Navigation */
-#nav-container {
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    background-color: #333;
     height: 50px;
-    top: 0;
-    background-color: #000000;
-    z-index: 1;
 }
 
-.nav-logo {
-    max-width: 50px;
+.navbar .logo {
+    height: 50px;
     width: 50px;
-    padding-left: 15px;
+    min-width: 0px;
+    margin-left: 1rem;
 }
 
-.nav-links li {
+.navbar ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.navbar-links li {
     list-style: none;
-    display: inline-block;
-    padding-right: 15px;
 }
 
-.nav-links a {
+.navbar-links li a {
     text-decoration: none;
     color: white;
-    font-size: 1rem; 
+    padding: 1rem;
+    display: block;
+    text-transform: uppercase;
 }
 
-.nav-links .active {
-    color: #ff001e;
+.navbar-links li a:hover {
+    color: red;
+    transition: 1s;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 0rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 50px;
+}
+
+.toggle-button img {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 630px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        width: 100%;
+        display: none;
+        position: fixed;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links.active {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(143, 140, 140);
+        height: calc(100vh - 40px);
+        top: 39px;
+        z-index: 99;
+
+    }
 }
 
 .nav-links a:hover {
     color: #ff001e;
-}
+} */
 
 /* Main - Landing */
 #main-landing {
