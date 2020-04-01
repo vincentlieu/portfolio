@@ -13,6 +13,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+svg {
+    fill: white;
+}
+
 /* Navigation */
 #nav-container {
     display: flex;
@@ -27,7 +31,7 @@ body::-webkit-scrollbar {
 
 .nav-logo-text {
     max-width: 150px;
-    width: 100%;
+    width: 200px;
     padding-left: 15px;
 }
 
@@ -137,7 +141,6 @@ body::-webkit-scrollbar {
     padding: 10px;
     width: 100%;
     height: 100%;
-    fill: white;
 }
 
 .social-link:hover svg{
@@ -225,17 +228,38 @@ body::-webkit-scrollbar {
 }
 
 /* Contact Form */
+
+.contact-find-me {
+    margin-top: 100px;
+    text-align: center;
+}
+
 .contact-container {
-    margin: 80px 15px 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-social svg {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-social {
+    margin: 50px;
+}
+
+.contact-form-container {
+    width: 100%;
 }
 
 /* Blog Page */
 .article-container {
-    margin: 80px 15px 10px 15px;
+    margin: 80px 50px 10px 50px;
 }
 
 .article-container article {
-    display: block;
     margin-bottom: 50px;
 }
 
