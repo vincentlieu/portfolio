@@ -2,7 +2,7 @@
 
 ---
 
-**Portfolio URL:** https://vincentlieu.github.io/portfolio/
+**Portfolio:** https://vincentlieu.github.io/portfolio/
 
 **Github:** https://github.com/vincentlieu/portfolio/
 
@@ -36,17 +36,54 @@ Bounce effect: Implemented on the chevron on the contact page. The bounce effect
 
 External links are provided throughout the website to direct the user to provide more information that are not explicitly provided on the portfolio. Some external links include access to GitHub or LinkedIn. Providing external links allows the user to dive further into myself as an individual through platforms on LinkedIn, Twitter or Medium; or GitHub projects that I have worked on.
 
-**4. **
+**4. Responsive design**
+
+A responsive design was implemented through the use of flexbox. By implementing flex; it allows different users to access the portfolio website from different devices comprising of different screen resolutions. The responsive design is implemented to provide better readability of the portfolio's content when accessed from different devices and provides more exposure for users to access the website.
+
+**5. Portfolio Variance**
+
+Three versions of the portfolio have been produced and resides on GitHub. These branches are accessible through the command.
+
+`git checkout light`
+
+1. Master - Base version of the website
+2. Light - Light colour scheme.
+3. Font - Design using a different font
+
+**Subresource integrity:**
+
+
+
+___
 
 **Sitemap**
 
+![sitemap](./docs/sitemap.png)
+
+___
+
 **Screenshots**
+
+
+
+___
 
 **Target audience**
 
+The target audience for this portfolio are for:
+
+1. Technology recruiters
+2. Developers
+
+The portfolio is intended to demostrate my capabilities as a full stack developer. It highlights my personality, work and is complimentary to the traditional method of providing an application to an employer. Those that are visiting my portfolio may consider myself for employment. 
+
+___
+
 **Tech Stack**
 
-
+1. HTML5
+2. CSS3
+3. GitHub
 
 
 
