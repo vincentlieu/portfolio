@@ -17,6 +17,11 @@ svg {
     fill: white;
 }
 
+footer {
+    position: relative;
+    bottom: 0;
+}
+
 /* Navigation */
 #nav-container {
     display: flex;
@@ -24,14 +29,15 @@ svg {
     align-items: center;
     position: fixed;
     width: 100%;
+    height: 50px;
     top: 0;
     background-color: #000000;
     z-index: 1;
 }
 
 .nav-logo-text {
-    max-width: 150px;
-    width: 200px;
+    max-width: 50px;
+    width: 50px;
     padding-left: 15px;
 }
 
@@ -144,28 +150,8 @@ svg {
 }
 
 .social-link:hover svg{
-    fill: #ff001e;
-    transition: 1s;
-}
-
-.chevron-dd {
-    fill: white;
-    max-height: 100px;
-    max-width: 100px;
-    height: 10vh;
-    width: 10vh;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-.chevron-bounce {
-    animation-name: bounce;
-    animation-timing-function: linear;
-}
-@keyframes bounce {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
+    transform: scale(1.2);
+    transition: 0.5s;
 }
 
 /* About Me page */
@@ -234,6 +220,32 @@ svg {
     text-align: center;
 }
 
+.chevron-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.chevron-dd {
+    fill: white;
+    max-height: 100px;
+    max-width: 100px;
+    height: 10vh;
+    width: 10vh;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.chevron-bounce {
+    animation-name: bounce;
+    animation-timing-function: linear;
+}
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
 .contact-container {
     display: flex;
     justify-content: center;
@@ -244,6 +256,11 @@ svg {
 .contact-social svg {
     width: 100px;
     height: 100px;
+}
+
+.contact-social svg:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
 }
 
 .contact-social {
