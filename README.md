@@ -20,8 +20,11 @@ The purpose of the portfolio website is to provide visibility of my skills, inte
 
 2. **Animation**
    Animations are provided across the porfolio to indiciate to the user that an element is interactable, provide a sense of direction or keeps the user interested. Animations that have been implemented into the portfolio site include colour changes, transformation or breathing. 
+
    **Breathing effect:** Implemented on the navigation bar logo and main home page to provide a night cityscape vibe like the featured background of the cityscape. The breathing effect was implemented to imitate the signalling lights on top of buildings for aeroplanes. 
+
    **Colour change effect:** Implemented on the navigation bar, project cards and about skills and locations. The colour change effect was implemented to indicate to the user that the element is interactable. 
+
    **Transformation effect:** Implemented on the main and contact page. The transformation effect was implemented to draw the user attention to elements that are important and that the element is interactable.
 
    **Bounce effect:** Implemented on the chevron on the contact page. The bounce effect is to indicate direction to the user that the elements beneath the animation is interactable.
@@ -45,11 +48,13 @@ The purpose of the portfolio website is to provide visibility of my skills, inte
 6. **Portfolio Variance**
    Three versions of the portfolio have been produced and resides on GitHub. These branches are accessible through the command.
 
-`git checkout light`
+   `git checkout light`
 
-1. Master - Base version of the website.
-2. Light - Light colour scheme.
-3. Font - Design using the Roboto theme.
+   Master - Base version of the website.
+
+   Light - Light colour scheme.
+
+   Font - Design using the Roboto theme.
 
 ### **Subresource integrity:**
 
