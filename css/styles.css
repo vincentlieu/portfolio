@@ -19,10 +19,6 @@ svg {
     fill: white;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 /* Navigation Bar */
 .navbar {
     display: flex;
@@ -131,10 +127,6 @@ svg {
     color: #ff001e;
 } 
 
-#main-landing {
-    width: 100%;
-}
-
 .main-container {
     display:flex;
     flex-direction: column;
@@ -154,10 +146,6 @@ svg {
     border: 3px solid white;
     padding: 0px 10px 30px 10px;
     margin: 80px 15px 10px 15px;
-    min-width: 100px;
-    min-height: 200px;
-    max-width: 400px;
-    max-height: 500px;
 }
 
 .logo {
@@ -199,7 +187,7 @@ svg {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 10px;
-    width: 350px;
+    /* width: ; */
 }
 
 .social-link {
@@ -207,14 +195,15 @@ svg {
     background-color: rgba(24, 24, 24, 0.534);
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin: 0px 10px 50px 10px;
+
 }
 
 .social-link svg {
     min-width: 20px;
     min-height: 20px;
-    max-width: 75px;
-    max-height: 75px;
+    max-width: 50px;
+    max-height: 50px;
     padding: 10px;
     width: 100%;
     height: 100%;
