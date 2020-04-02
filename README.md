@@ -72,23 +72,23 @@ ___
 
 ### **Home**
 
-![Screenshot_home](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_home.gif)
+![Screenshot_home](./docs/Screenshot_home.gif)
 
 ### About
 
-![Screenshot_about](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_about.png)
+![Screenshot_about](./docs/Screenshot_about.png)
 
 ### Projects
 
-![Screenshot_projects](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_projects.gif)
+![Screenshot_projects](./docs/Screenshot_projects.gif)
 
 ### Blog
 
-![Screenshot_blog](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_blog.png)
+![Screenshot_blog](./docs/Screenshot_blog.png)
 
 ### Contact
 
-![Screenshot_contact](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_contact.gif)
+![Screenshot_contact](./docs/Screenshot_contact.gif)
 
 ___
 
