@@ -85,6 +85,18 @@ svg {
     color: #ff001e;
 }
 
+.navbar .logo {
+    animation-name: logo-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo-animation {
+    0% {fill: #9b0000;}
+    50% {fill: #ff001e;}
+    100% {fill: #9b0000;}
+}
+
 @media (max-width: 630px) {
     .toggle-button {
         display: flex;
@@ -122,18 +134,6 @@ svg {
     .navbar-links ul li:first-child {
         display: list-item;
     }
-
-    .navbar .logo {
-        animation-name: logo-animation;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-    }
-    
-    @keyframes logo-animation {
-        0% {fill: #9b0000;}
-        50% {fill: #ff001e;}
-        100% {fill: #9b0000;}
-      }
 }
 
 .nav-links a:hover {
