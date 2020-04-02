@@ -34,7 +34,7 @@ The purpose of the portfolio website is to provide visibility of my skills, inte
    
 
 3. **External links**
-   Links are provided throughout the website to direct the user to provide more information that are not explicitly provided on the portfolio. Some external links include access to GitHub or LinkedIn. Providing external links allows the user to dive further into myself as an individual through platforms on LinkedIn, Twitter or Medium; or GitHub projects that I have worked on.
+Links are provided throughout the website to direct the user to provide more information that are not explicitly provided on the portfolio. Some external links include access to GitHub or LinkedIn. Providing external links allows the user to dive further into myself as an individual through platforms on LinkedIn, Twitter or Medium; or GitHub projects that I have worked on.
 
    
 
@@ -119,7 +119,7 @@ ___
 
 #### Mobile
 
-![Screenshot_mobile](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_mobile.png)
+![Screenshot_mobile](./docs/Screenshot_mobile.png)
 
 ___
 
@@ -127,9 +127,9 @@ ___
 
 **Version 1**
 
-![Wireframe_V1](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Wireframe_V1.png)
+![Wireframe_V1](./docs/Wireframe_V1.png)
 
 **Version 2 (Final)**
 
-![Wireframe_v2](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Wireframe_V2.png)
+![Wireframe_v2](./docs/Wireframe_V2.png)
 
