@@ -76,19 +76,19 @@ ___
 
 ### About
 
-![](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_about.png)
+![Screenshot_about](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_about.png)
 
 ### Projects
 
-![](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_projects.gif)
+![Screenshot_projects](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_projects.gif)
 
 ### Blog
 
-![](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_blog.png)
+![Screenshot_blog](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_blog.png)
 
 ### Contact
 
-![](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_contact.gif)
+![Screenshot_contact](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_contact.gif)
 
 ___
 
