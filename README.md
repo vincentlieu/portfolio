@@ -1,4 +1,4 @@
-**Vincent Lieu's Portfolio Website**
+## **Vincent Lieu's Portfolio Website**
 
 ---
 
@@ -8,11 +8,11 @@
 
 ___
 
-**Purpose**
+## **Purpose**
 
 The purpose of the portfolio website is to provide visibility of my skills, interests and experience to potential employers. Creating a portfolio to highlight my work will assist in providing opportunities into the information technology industry. As an aspiring developer, the portfolio website exhibits web development and design capabilities. 
 
-**Functionality/Features**
+### **Functionality/Features**
 
 **1. Navigation**
 
@@ -46,25 +46,43 @@ Three versions of the portfolio have been produced and resides on GitHub. These 
 
 `git checkout light`
 
-1. Master - Base version of the website
+1. Master - Base version of the website.
 2. Light - Light colour scheme.
-3. Font - Design using a different font
+3. Font - Design using the Roboto theme.
 
-**Subresource integrity:**
+### **Subresource integrity:**
 
 
 
 ___
 
-**Sitemap**
+## **Sitemap**
 
 ![sitemap](./docs/sitemap.png)
 
 ___
 
-**Screenshots**
+## **Screenshots**
 
+### **Home**
 
+![Screenshot_home](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_home.png)
+
+### About
+
+![](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_about.png)
+
+### Projects
+
+![](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_projects.png)
+
+### Blog
+
+![](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_blog.png)
+
+### Contact
+
+![](/Users/vincentlieu/Documents/CoderAcademy/portfolio/docs/Screenshot_contact.png)
 
 ___
 

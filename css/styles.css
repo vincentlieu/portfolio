@@ -1,3 +1,4 @@
+/*Global settings*/
 html {
     scroll-behavior: smooth;
 }
@@ -15,8 +16,15 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+/*Set default SVG to white*/
 svg {
     fill: white;
+}
+
+/*Set hover-highlight*/
+.hover-highlight:hover {
+    color:  #ff001e;
+    transition: 1s;
 }
 
 /* Navigation Bar */
@@ -56,11 +64,6 @@ svg {
     text-transform: uppercase;
 }
 
-.navbar-links li a:hover {
-    color: #ff001e;
-    transition: 1s;
-}
-
 .toggle-button {
     position: absolute;
     top: 0rem;
@@ -97,6 +100,7 @@ svg {
     100% {fill: #9b0000;}
 }
 
+/*Show Hamburger Menu on mobile*/
 @media (max-width: 630px) {
     .toggle-button {
         display: flex;
@@ -139,7 +143,7 @@ svg {
 .nav-links a:hover {
     color: #ff001e;
 } 
-
+/*Home page*/
 .main-container {
     display:flex;
     flex-direction: column;
@@ -152,6 +156,7 @@ svg {
     box-shadow: inset 0px 0px 0px 2000px rgba(17, 17, 17, 0.603);
 }
 
+/*Home page logo box*/
 .main-landing-intro {
     display: flex;
     flex-direction: column;
@@ -161,12 +166,14 @@ svg {
     margin: 80px 15px 10px 15px;
 }
 
+/*Home page logo*/
 .logo {
     min-width: 250px;
     width: 100%;
     fill: white;
 }
 
+/*Home page logo breathing effect*/
 .logo-breath {
     animation-name: logo-animation;
     animation-duration: 4s;
@@ -179,30 +186,34 @@ svg {
     100% {fill: #9b0000;}
   }
 
+/*Home page intro text*/
 .intro-text {
     text-align: center;
     font-size: 1rem;
 }
 
+/*Home page intro name*/
 .intro-text h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
 }
 
+/*Home page intro - Full Stack Developer*/
 .intro-text h2 {
     letter-spacing: 0.2em;
     font-size: 20px;
 }
 
+/*Home page social container*/
 .social-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 10px;
-    /* width: ; */
 }
 
+/*Home page social links*/
 .social-link {
     border: 2px solid white;
     background-color: rgba(24, 24, 24, 0.534);
@@ -244,7 +255,7 @@ svg {
     border-radius: 50%;
 }
 
-.about-me-skillset {
+.about-me-bio {
     font-size: 1.2em;
     margin: 10px;
     height: 100%;
@@ -261,33 +272,16 @@ svg {
     font-weight: bold;
 }
 
-.location:hover {
-    -webkit-user-select: none;
-    color:  #ff001e;
-    transition: 1s;
-}
-
-.about-me-text ul li {
-    list-style: none;
-}
-
 .list-items li {
     display: inline-block;
     margin: 5px 5px 5px 5px;
 }
 
-.list-items li:hover {
-    color:  #ff001e;
-    -webkit-user-select: none;
-    transition: 1s;
-}
 
-.secondment-styling {
+.secondment {
     font-style: italic;
     font-size: 15px;
 }
-
-
 
 /* Blog Page */
 .article-container {
